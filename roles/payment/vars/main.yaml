@@ -1,5 +1,5 @@
-CART_HOST: cart.skptech.site
-USER_HOST: user.skptech.site
-RABBITMQ_HOST: rabbitmq.skptech.site
+CART_HOST: cart.backend-{{ env }}.skptech.site
+USER_HOST: user.backend-{{ env }}.skptech.site
+RABBITMQ_HOST: rabbitmq-{{ env }}.skptech.site
 RABBITMQ_USER: roboshop
 RABBITMQ_PASSWORD: roboshop123

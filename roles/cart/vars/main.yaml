@@ -1,2 +1,2 @@
-CATALOGUE_HOST: catalogue.skptech.site
-REDIS_HOST: redis.skptech.site
+CATALOGUE_HOST: catalogue.backend-{{ env }}.skptech.site
+REDIS_HOST: redis-{{ env }}.skptech.site

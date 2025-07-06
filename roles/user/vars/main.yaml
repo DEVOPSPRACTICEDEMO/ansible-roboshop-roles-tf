@@ -1,2 +1,2 @@
-REDIS_HOST: redis.skptech.site
-MONGODB_HOST: mongodb.skptech.site
+REDIS_HOST: redis-{{ env }}.skptech.site
+MONGODB_HOST: mongodb-{{ env }}.skptech.site
