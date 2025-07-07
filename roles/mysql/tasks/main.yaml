@@ -19,12 +19,3 @@
 
 - name: setp root password
   ansible.builtin.command: mysql_secure_installation --set-root-pass {{ MYSQL_ROOT_PASSWORD }}
-
-- name: Create MySQL root .my.cnf
-  copy:
-    dest: /root/.my.cnf
-    content: |
-      [client]
-      user=root
-      password={{ MYSQL_ROOT_PASSWORD }}
-  mode: '0600'
